@@ -2,6 +2,10 @@
     "files.associations": {
         "type_traits": "cpp",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "initializer_list": "cpp",
+        "valarray": "cpp",
+        "sstream": "cpp",
+        "regex": "cpp"
     }
 }
