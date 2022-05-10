@@ -6,6 +6,7 @@
         "initializer_list": "cpp",
         "valarray": "cpp",
         "sstream": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "new": "cpp"
     }
 }
