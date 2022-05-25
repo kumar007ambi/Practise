@@ -9,18 +9,25 @@ int main()
     {
         int n;
         cin >> n;
-        int ans = -1;
-        int a[n];
-        sort(a,a+n);
-        for (int i = 0; i < n; i++)
-        {
+        int a[n], i, area = 1, cnt = 0;
+        for (i = 0; i < n; i++)
             cin >> a[i];
-            if (a[i] + a[i + 2] == a[i + 1] + a[i + 3])
+        sort(a, a + n);
+        for (i = n - 1; i > 0; i--)
+        {
+            if (a[i] == a[i - 1])
             {
-                ans = a[i] * a[i + 1];
+                area = area * a[i];
+                i--;
+                cnt++;
             }
+            if (cnt == 2)
+                break;
         }
-        cout << ans << endl;
+        if (cnt < 2)
+            cout << -1 << endl;
+        else
+            cout << area << endl;
     }
     return 0;
 }
