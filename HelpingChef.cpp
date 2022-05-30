@@ -8,13 +8,12 @@ int main()
     cin >> t;
     while (t--)
     {
-        int n, fact = 1;
+        int n;
         cin >> n;
-        for (int i = 1; i <= n; i++)
-        {
-            fact = fact * i;
-        }
-        cout << fact << endl;
+        if (n>= -20 && n < 10)
+            cout << "Thanks for helping Chef!" << endl;
+        else
+            cout << "-1" << endl;
     }
     return 0;
 }

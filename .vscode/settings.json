@@ -8,6 +8,7 @@
         "sstream": "cpp",
         "regex": "cpp",
         "new": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "iomanip": "cpp"
     }
 }
