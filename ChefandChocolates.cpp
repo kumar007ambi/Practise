@@ -3,13 +3,15 @@ using namespace std;
 
 int main()
 {
+    // your code goes here
     int t;
     cin >> t;
     while (t--)
     {
-        long long int a, b, c;
-        cin >> a >> b >> c;
-        cout << a + b + c - min(a, min(b, c)) << endl;
+        int x,y,z;
+        cin>>x>>y>>z;
+        int totM=x*5+y*10;
+        cout<<(totM/z)<<endl;
     }
     return 0;
 }
