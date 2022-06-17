@@ -9,6 +9,7 @@
         "regex": "cpp",
         "new": "cpp",
         "random": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "*.tcc": "cpp"
     }
 }
