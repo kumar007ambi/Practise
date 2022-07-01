@@ -1,20 +1,6 @@
-if (c == 0)
-        {
-            cnt = 1;
-        }
-        else if (a + c == b)
-        {
-            cnt = 0;
-        }
-        else
-        {
-            for (int i = c; i >= 0; i--)
-            {
-                if (a + c > b)
-                {
-                    cnt++;
-                    c--;
-                    b++;
-                }
-            }
-        }
+#ifndef ONLINE_JUDGE
+//     freopen("input.txt", "r", stdin);
+//     freopen("output.txt", "w", stdout);
+// #endif
+//     ios_base::sync_with_stdio(false);
+//     cin.tie(NULL), cout.tie(NULL);
